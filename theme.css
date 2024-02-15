@@ -1,0 +1,90 @@
+/* BASE COLORS */
+
+.theme-dark
+{
+  /* backgroudn variables */
+  --background-primary: #323437;
+  --background-primary-alt: #2c2e31;
+  --background-secondary: #2c2e31;
+  --background-secondary-alt: #323437;
+
+  /* window frame */
+  --titlebar-background: var(--background-secondary-alt);
+  --titlebar-background-focused: var(--background-primary-alt);
+
+  /* divider */
+  --divider-color: var(--background-primary-alt);
+
+  /* text colors */
+  --text-accent: #e2b714;
+  --text-muted: #aaaeb3;
+  --text-normal: #e1e1e3;
+  --text-faint: #646669;
+  --text-error: #ca4754;
+  --text-error-hover: #7e2a33;
+
+  /* code editing */
+  --code-background: var(--background-secondary);
+  --code-normal: var(--text-normal);
+  --code-comment: var(--text-faint);
+  --code-function: var(--yellow);
+  --code-keyword: var(--yellow);
+  --code-operator: var(--text-faint);
+  --code-property: var(--text-muted);
+  --code-string: var(--red);
+  --code-punctuation: var(--text-muted);
+  --code-value: var(--red);
+  --code-tag: var(--red);
+
+  /* colors */
+  --red: #ca4754;
+  --yellow: #e2b714;
+
+  --hr-color: var(--text-accent);
+
+}
+
+.theme-light {
+  /* background vars */
+  --background-primary: #e1e1e3;
+  --background-primary-alt: #d1d3d8;
+  --background-secondary: #d1d3d8;
+  --background-secondary-alt: #e1e1e3;
+
+  /* window frame */
+  --titlebar-background: var(--background-secondary-alt);
+  --titlebar-background-focused: var(--background-primary-alt);
+
+  /* divider */
+  --divider-color: var(--background-primary-alt);
+  
+  /* text colors */
+  --text-accent: #e2b714;
+  --text-muted: #323437;
+  --text-normal: #2c2e31;
+  --text-faint: #646669;
+  --text-error: #da3333;
+  --text-error-hover: #791717;
+
+  /* code editing */
+  --code-background: var(--background-secondary);
+  --code-normal: var(--text-normal);
+  --code-comment: var(--text-faint);
+  --code-function: var(--yellow);
+  --code-keyword: var(--yellow);
+  --code-operator: var(--text-faint);
+  --code-property: var(--text-muted);
+  --code-string: var(--red);
+  --code-punctuation: var(--text-muted);
+  --code-value: var(--red);
+  --code-tag: var(--red);
+
+  --hr-color: var(--text-accent);
+
+
+
+
+  /* colors */
+  --red: #da3333;
+  --yellow: #e2b714;
+}
